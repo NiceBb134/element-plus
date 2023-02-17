@@ -83,6 +83,8 @@
 import { reactive, ref } from 'vue'
 import type { FormInstance, FormRules } from 'element-plus'
 
+console.log(FormRules, FormInstance, '---FormInstance---')
+
 const formSize = ref('default')
 const ruleFormRef = ref<FormInstance>()
 const ruleForm = reactive({
